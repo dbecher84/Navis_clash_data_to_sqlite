@@ -4,7 +4,7 @@ Install the sqlite driver by running the "sqliteodbc_w64.exe" file
 
 Install Power BI Desktop app
 
-Copy the "clash_sql_export" folder here:
+Copy the "clash_sqlite_export" folder here:
 C:\Program Files\Autodesk\Navisworks Manage 2021\Plugins
 
 Copy the "IPS Navis clashes to database" folder here:
