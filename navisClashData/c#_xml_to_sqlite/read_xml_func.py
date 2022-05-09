@@ -67,10 +67,15 @@ def read_tests(number, test_file):
                 else:
                     at_id = "No_Assignee"
 
-        items_to_append = [c_guid, c_id, stat, e1guid, e2guid, g_name, d_created, at_id, e_date, t_id]       
-        for item in items_to_append:
-            clash_info.append(item)
+        #items_to_append = [c_guid, c_id, stat, e1guid, e2guid, g_name, d_created, at_id, e_date, t_id]
 
+        ##use to exclude clashes in approved folder (these are not real clashes)
+        if g_name.lower() != "approved":
+            items_to_append = [c_guid, c_id, stat, e1guid, e2guid, g_name, d_created, at_id, e_date, t_id]
+            for item in items_to_append:
+                clash_info.append(item)
+                
+            clash_list.append(clash_info)
         
         #now = datetime.datetime.now()
         #clash_report_date = now.strftime('%Y.%m.%d')
@@ -78,5 +83,5 @@ def read_tests(number, test_file):
 
         #clash_info.append(number)
     
-        clash_list.append(clash_info)
+        #clash_list.append(clash_info)
     
