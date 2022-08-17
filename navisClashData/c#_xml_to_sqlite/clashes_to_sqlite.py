@@ -55,7 +55,7 @@ tests = [('00.00', 'Structural vs Structural'), ('00.01', 'Structural vs Archite
          ('05.05', 'Mechanical Piping vs Mechanical Piping'), ('05.06', 'Mechanical Piping vs Fire Protection'), ('05.07', 'Mechanical Piping vs Plumbing'), ('05.08', 'Mechanical Piping vs Electrical'),
          ('06.06', 'Fire Protection vs Fire Protection'), ('06.07', 'Fire Protection vs Plumbing'), ('06.08', 'Fire Protection vs Electrical'),
          ('07.07', 'Plumbing vs Plumbing'), ('07.08', 'Plumbing vs Electrical'),
-         ('08.08', 'Electrical vs Electrical')]
+         ('08.08', 'Electrical vs Electrical'), ('99.99', 'Verity Clash Results')]
 
 #tests = [('00.00', 'Clash Test 1'), ('00.01', 'Clash Test 2'), ('00.02', 'Clash Test 3')]
 

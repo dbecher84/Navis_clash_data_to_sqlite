@@ -18,8 +18,7 @@ namespace fill_in_db
         {
             try
             {
-                string exe_path = @"C:\Program Files\Autodesk\IPS Navis clashes to database\clashes_to_sql_v1.0.1.exe";
-                //string exe_path = @"C:\Program Files\Autodesk\Navisworks Manage 2021\Plugins\navis_clash_data\clashes_to_sql_v1.0.0.exe";
+                string exe_path = @"C:\Program Files\Autodesk\IPS Navis clashes to database\clashes_to_sqlite_v1.0.2.exe";
                 Process.Start(exe_path);
             }
             catch (Exception ex)

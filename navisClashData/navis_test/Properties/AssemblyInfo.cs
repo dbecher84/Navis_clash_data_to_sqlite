@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Navsiworks 2021 Clash Results Export")]
-[assembly: AssemblyDescription("Export Navisworks Clash Results to SQLite  Database")]
+[assembly: AssemblyDescription("Export Clash Results to SQLite Database Navisworks 2021")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("navis_test")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2022.1.0.1")]
-[assembly: AssemblyFileVersion("2022.1.0.1")]
+[assembly: AssemblyVersion("2022.1.0.2")]
+[assembly: AssemblyFileVersion("2022.1.0.2")]

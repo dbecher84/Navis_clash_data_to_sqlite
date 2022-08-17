@@ -21,8 +21,9 @@ using Autodesk.Navisworks.Api.Plugins;
 namespace ClashData
 {
     //plugin attributes require Name, DeveloperID and optional parameters
-    [PluginAttribute("clash_sqlite_export", "Derek B", DisplayName = "Export Clashes to SQLite", ToolTip = "Exports clash data to XML them to sqlite database.")]
-    [AddInPluginAttribute(AddInLocation.AddIn)]
+    [PluginAttribute("clash_sqlite_export", "Derek B", DisplayName = "Export Clashes to SQLite", ToolTip = "Exports clash data to XML them to sqlite database.", ExtendedToolTip = "Plugin Version 2022.1.0.2, EXE Version v1.0.2")]
+    [AddInPluginAttribute(AddInLocation.AddIn, Icon = "C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Plugins\\clash_sql_export\\resources\\16x16_sqlite_export_img.bmp",
+        LargeIcon = "C:\\Program Files\\Autodesk\\Navisworks Manage 2021\\Plugins\\clash_sqlite_export\\resources\\32x32_sql_export_img.bmp")]
 
     public class ClashData : AddInPlugin
     {
